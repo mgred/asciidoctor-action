@@ -21,3 +21,7 @@ jobs:
 ## Dependencies
 
 * [asciidoctor/asciidoctor-docker](https://hub.docker.com/r/asciidoctor/docker-asciidoctor/)
+
+## License
+
+[GPL-3.0](https://github.com/mgred/asciidoctor-action/blob/master/LICENSE)
