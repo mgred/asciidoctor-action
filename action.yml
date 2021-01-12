@@ -1,0 +1,12 @@
+name: "Asciidoctor Github Action"
+description: "An Action to use the Asciidoctor CLI"
+inputs:
+  args:
+    description: "Command to run"
+    required: true
+    default: "asciidoctor --help"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.args }}
